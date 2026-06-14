@@ -1,4 +1,4 @@
-/threadhive-backend/.env
+*.env
 /reference/
 /SamParsons_Week8_GradedProject_Solution/*
 
