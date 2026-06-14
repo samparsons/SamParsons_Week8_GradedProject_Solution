@@ -1,0 +1,13 @@
+/threadhive-frontend/resources/
+/threadhive-backend/.env
+/reference/
+
+# Dependencies
+**/node_modules/
+
+# Build and coverage outputs
+**/dist/
+**/coverage/
+
+# Logs
+*.log
