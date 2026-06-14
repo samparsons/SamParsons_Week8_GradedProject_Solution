@@ -23,10 +23,8 @@ export default function Home() {
   const { threads, loading, error } = useSelector((state) => state.threads);
 
   const {
-    subreddits,
     subredditData,
     loading: subredditLoading,
-    error: subredditError,
   } = useSelector((state) => state.subreddits);
 
   // Load initial threads or subreddit-specific threads

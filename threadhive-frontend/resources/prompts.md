@@ -13,6 +13,7 @@
    - `.addCase(thunk.rejected, ...)` → set loading false, store error from payload
 6. Never access `localStorage` directly in components — always use Redux actions (`loginUser`, `logout`, `setUser`).
 7. Use `handleApiError` from `src/utils/handleApiError.js` in thunk catch blocks for consistent error handling.
+8. Maintain clean code. Remove any unused or unnecessary code.
 ```
 
 ---

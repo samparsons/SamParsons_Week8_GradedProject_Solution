@@ -1,10 +1,12 @@
 /threadhive-backend/.env
 /reference/
+/SamParsons_Week8_GradedProject_Solution/*
 
 # Dependencies
 **/node_modules/
 
 # Build and coverage outputs
+**/.vite/
 **/dist/
 **/coverage/
 
